@@ -1,0 +1,146 @@
+@font-face {
+    font-family:"breaking";
+    src: url(font/Breaking\ Bad.ttf);
+}
+
+body {
+    background-image: url("imagenes/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    min-height: 100vh;
+}
+body.tabla{
+    background-color:#0c3e11 !important;
+    background-image: none;
+    
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.logo img{
+    width:200px;
+    height: 200px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+#index{
+    
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.poster {
+    border: 10px outset brown;
+    border-radius: 22px 22px 22px 22px;
+    width: 700px;
+    height: 300px;
+    margin:auto;
+    
+   
+}
+.poster img {
+   
+    width: 700px;
+    height: 300px;
+
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+fieldset {
+    padding: 5x;
+}
+
+
+.grande{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15x;
+}
+.cabecera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+table {
+    border: 1px solid black;
+    width: 900px;
+    height: 400px;
+    margin: auto;
+   
+
+}
+td {
+    border: 1px solid black;
+    text-align: center;
+    font-family: "breaking";
+    font-size: 16px;
+    width: 120px;
+    height: 60px;
+}
+
+.nombres {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+.negro{
+    background-color: black;
+    width: 800px;
+    height: 20px;
+}
+.verde {
+    background-color: rgb(32, 158, 32);
+}
+.medio{
+    background-color: rgb(67, 97, 67);
+}
+.Marie {
+    background-color: rgb(134, 92, 173);
+}
+.claro {
+    background-color: rgb(201, 216, 118);
+}
+.blanco {
+    background-color: rgb(250, 246, 240);
+}
+.oscuro2{
+    background-color: rgb(73, 102, 5);
+}
+.fuerte{
+    background-color: rgb(61, 73, 27);
+}
+
+.negro2{
+    background-color: black;
+    width: 300px;
+    height: 20px;
+}
+.verde2{
+    background-color: rgb(208, 252, 144);
+}
+.gris {
+    background-color: rgb(180, 180, 180);
+}
+.tabla2{
+    width: 400px !important;
+    height: 180px;
+}
+.td2{
+    width: 50px;
+    height: 50px;
+    background-color:rgba(190, 190, 12, 0.932) ;
+}

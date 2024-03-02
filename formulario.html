@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="imagenes/logo.PNG">
+    </div>
+    <h1>Breaking Bad - Que comience el juego!</h1>
+
+    <div>
+        <form name="formulario" method="post" action="mailto:raul.rodriguez@proeducaglobal.com">
+            <fieldset>
+                <legend>Formulario</legend>
+                <h1 class="grande">Datos Personales:</h1>
+                Nombre:<input type="text" required>
+                <br>
+                Apellidos:<input type="text" required>
+                <br>
+                DNI:<input type="text">
+                <br>
+                Correo electrónico:<input type="text" required>
+                <br>
+                Ciudad:<input type="text">
+                <br>
+                Calle:<input type="text">
+                <br>
+                Numero:<input type="number">
+                <br>
+                Piso:<input type="text">
+                <br>
+                Código Postal: <input type="text">
+                <br>
+                Sexo:
+                
+                <br><input type="radio" name="Hombre" id="" value="Hombre">Hombre
+                <br><input type="radio" name="Mujer" id="" value="Mujer">Mujer
+                <br>
+                Fecha de nacimiento: <input type="date">
+                <legend>Selecciona un Personaje</legend>
+                <h1 class="grande"> Personajes:</h1>
+                <select name="Personaes_BreakingBad" id="">
+                <option value="1">Jesse Pinkman</option>
+                <option value="2">Saul Goodman</option>
+                <option value="3">Gustavo Fring</option>
+                <option value="4">Pollos Hermanos</option>
+                <option value="5">Otros personajes</option>
+        </select>
+        <br>
+        <br>
+        <h1 class="grande">Escribe aquí tu opinión sobre la serie:</h1>
+        <textarea name="opiniones" id="" cols="40" rows="20"   placeholder="The fact is Walter White could´n have done it without me" ></textarea>
+        <br>
+        <div class="botones">
+            <input type="submit" value="Enviar">
+            <input type="file" id="archivo" name="archivo">
+            <input type="reset" value="Eliminar">
+
+        </div>
+        
+        
+            </fieldset>
+        </form>
+    </div>
+    
+
+</body>
+</html>
